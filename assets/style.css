@@ -1,0 +1,68 @@
+body {
+  padding: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9a330d;
+}
+
+.part1 {
+  display: flex;
+}
+
+nav {
+  background-color: #fef7e2;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+nav * {
+  margin: 20px;
+  background-color: #edc13d;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .our_honey {
+  flex: 1 0 100px;
+  height: 40px;
+  font-weight: 600;
+}
+
+nav .logo {
+  height: 100px;
+
+  display: flex;
+  padding: 8px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo .shop {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.container--flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prod__card {
+  width: 15vw;
+  min-height: 300px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.prod__card .img1 {
+  object-fit: cover;
+  max-width: 100%;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+}
